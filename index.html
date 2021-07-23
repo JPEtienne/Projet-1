@@ -13,14 +13,12 @@
         <!--Logo-->       
                 <div id="logo"><a href="index.html"><img src="images/logo.png" alt="webagency" /></a></div>                
         <!--Menu de navigation -->
-                <nav id="nav_header"> 
-                    <ul class="menu">
-                        <li ><a href="#acceuil" class="menua men">Acceuil</a></li>
-                        <li ><a href="#services" class="menua">Services</a></li>
-                        <li ><a href="#portfolio" class="menua">Portfolio</a></li>
-                        <li ><a href="#formulaire" class="menua">Contact</a></li>
-                    </ul>
-                </nav>
+                <ul class="menu">
+                    <li ><a href="#acceuil" class="menua men">Acceuil</a></li>
+                    <li ><a href="#services" class="menua">Services</a></li>
+                    <li ><a href="#portfolio" class="menua">Portfolio</a></li>
+                    <li ><a href="#formulaire" class="menua">Contact</a></li>
+                </ul>
             </header>
 
         <!--Bannière-->    
@@ -173,9 +171,7 @@
                     <aside id="formulaire">
                     <!--info formulaire-->
                         <div class="google_map">
-                                <iframe class="map__iframe" style="border:0;" 
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCU1eLFIGuoeAUgQ6867ho_YUhCAjwnYk0&q=25+Rue+d'Hauteville,Paris+France&zoom=13">
-                              </iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.220256387844!2d2.3480540156300345!3d48.87307757928888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUyJzIzLjEiTiAywrAyMScwMC45IkU!5e0!3m2!1sen!2sbe!4v1627054916562!5m2!1sen!2sbe" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     <!--formulaire-->
                     <div id="form_item">  
@@ -200,7 +196,7 @@
                                     <p>
                                         <textarea rows="10" cols="20" placeholder="Message" required class="text_contact"></textarea> <!--Zone de texte-->
                                     </p>
-                                    <input type="submit" value="Send Message" id="Smessage"/> <!--Bouton envoyer-->
+                                    <input type="submit" value="Envoyer" id="Smessage"/> <!--Bouton envoyer-->
                                 </div>
                             </form>
                         </div>  
@@ -210,10 +206,29 @@
             
             <!--footer-->
             <footer>
-                <p>2018-WebAgency</p>
-                <div>
-                    <img src="OC/openclassrooms.png" alt="Logo OpenClassrooms" id="oc" />
+                <div class="footer-nav">
+                    <ul class="menu">
+                        <li ><a href="index.html"><img src="images/logo-text.png" alt="webagency" /></a></li>
+                        <li ><a href="#acceuil" class="menuf">Acceuil</a></li>
+                        <li ><a href="#services" class="menuf">Services</a></li>
+                        <li ><a href="#portfolio" class="menuf">Portfolio</a></li>
+                        <li ><a href="#formulaire" class="menuf">Contact</a></li>
+                    </ul>
                 </div>
+
+                <div class="media">
+                    <ul class="menu">
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-trademark"><i class="far fa-copyright"></i>2018-WebAgency</div>
+                <!--<div>
+                    <img src="OC/openclassrooms.png" alt="Logo OpenClassrooms" id="oc" />
+                </div>-->
+
             </footer>
         </div>
     </body>
