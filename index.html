@@ -23,27 +23,31 @@
 
         <!--Bannière-->    
             <div id="acceuil">
-               
                 <div id="banniere_texte">
-                        <h1 class="titre_banniere"><span class="blue">Webagency</span> : l'agence de tous<br /> vos projets !</h1>
-                        <div class="desc_banniere">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</div>
                         <div class="info"><a href="#formulaire" id="plus">Plus d'infos</a></div>                                             
                 </div>
                 <div id="fleche_ban">
-                    <div class="fleche_bann"><i class="fas fa-chevron-left"></i></div>
-                    <div class="fleche_bann"><i class="fas fa-chevron-right"></i></div>
-                </div>   
+                    <button class="fleche_bann"><i class="fas fa-chevron-left"></i></button>
+                    <button class="fleche_bann"><i class="fas fa-chevron-right"></i></button>
+                </div>
                 <div class="banniere">
-                    <div>
-                            <img src="images/slider/bg1.jpg" alt="bg1" id="imgbord1" />
-                            <div id="img_bord_1"></div>
+                    <div class="slide">
+                        <div>
+                            <h1 class="titre_banniere"><span class="blue">Webagency</span> : l'agence de tous<br/> vos projets !</h1>
+                            <p class="desc_banniere">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                        </div>
+                        <img src="images/slider/bg1.jpg" alt="bg1" id="imgbord1" />
+                        <div id="img_bord_1"></div>
                     </div>
-                    <div>
-                            <img src="images/slider/bg2.jpg" alt="bg2" id="imgbord2" />
-                            <div id="img_bord_2"></div>
+                    <div class="slide">
+                        <div>
+                            <h1 class="titre_banniere"><span class="blue">CONTACTEZ-NOUS</span>  DÈS MAINTENANT<br/>ET RÉALISEZ VOS IDÉES ! </h1>
+                            <p class="desc_banniere">Besoin de services en design? WebAgency vous permet d'avancer !</p>
+                        </div>
+                        <img src="images/slider/bg2.jpg" alt="bg2" id="imgbord2" />
+                        <div id="img_bord_2"></div>
                     </div>
                 </div>
-                <div id="img_bord_3"></div>
             </div>
 
             <section>
@@ -93,9 +97,9 @@
                     <nav id="nav_proj_center">
                         <ul id="nav_proj">
                             <li><a href="#portfolio" class="proj" id="bord1">All Works<div class="fas fa-sort-down" id="sort-down"></div></a></li>
-                            <li><a href="creative" class="proj">Creative<div class="fas fa-sort-down"></div></a></li>
-                            <li><a href="corporate" class="proj">Corporate<div class="fas fa-sort-down"></div></a></li>
-                            <li><a href="protfolio" class="proj" id="bord2">Portfolio<div class="fas fa-sort-down"></div></a></li>
+                            <li><a href="#creative" class="proj">Creative<div class="fas fa-sort-down"></div></a></li>
+                            <li><a href="#corporate" class="proj">Corporate<div class="fas fa-sort-down"></div></a></li>
+                            <li><a href="#protfolio" class="proj" id="bord2">Portfolio<div class="fas fa-sort-down"></div></a></li>
                         </ul>
                     </nav>
                     
@@ -175,7 +179,7 @@
                         </div>
                     <!--formulaire-->
                     <div id="form_item">  
-                        <form method="post" action="traitement.php" >
+                        <form method="post" action="#traitement" >
                                 <div id="field">
                                     <h2>Contact Info</h2>
                                     <p><span id="SAS">WebAgency SAS</span><br />
